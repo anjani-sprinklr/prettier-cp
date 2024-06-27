@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    // This matches the package name given in this package.json
+    "plugins": [{
+      "name": "tsserver-plugin"
+    }],
+    
+
+/* Skip type checking all .d.ts files. */
+  }
+}
